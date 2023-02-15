@@ -70,7 +70,7 @@ let listCreator =(arr)=>{
 }
 listCreator([1,2,'arrr', true,false]);
 
-let objectMassive=(object)=>{
+let objectMassive =(object)=>{
     for (const objectElement of object) {
         document.write(`<div>${objectElement.name} ${objectElement.id} ${objectElement.age}</div>`)
 
